@@ -149,6 +149,8 @@ section h2 {
     display: grid;
     grid-template-rows: repeat(8, auto);
     gap: 2rem;
+    width: fit-content;
+    height: fit-content;
 }
 
 .grid > button {
@@ -350,11 +352,11 @@ footer {
     }
 
     .child {
-        height: 30vh;
+        /* height: 50vh; */
     }
     
     .child p {
-        margin-top: 23rem;
+        /* margin-top: 15rem; */
     }
 
     footer {
